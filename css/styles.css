@@ -1,3 +1,4 @@
+
 /* additional styles for the Bootstrap lab */
 /* note that we do not need to import reset.css here because Bootstrap already resets
 the browser default styles before applying their own */
@@ -7,5 +8,9 @@ the browser default styles before applying their own */
 	width: 100px;
 	margin-right: 1em;
 	margin-bottom: 1em; 
+}
+
+@media screen and (max-width: 767px) {
+	display: none;
 }
 
